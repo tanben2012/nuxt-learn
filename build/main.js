@@ -148,7 +148,8 @@ module.exports = {
       }
     }
 
-  }
+  },
+  telemetry: false
 };
 
 /***/ }),
