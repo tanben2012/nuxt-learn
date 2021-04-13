@@ -28,7 +28,7 @@ async function start() {
   })
 
   app.listen(port, host)
-  console.log('Server listening on ' + host + ':' + port) // eslint-disable-line no-console
+  console.log('Server listening on http://' + host + ':' + port) // eslint-disable-line no-console
 }
 
 start()
