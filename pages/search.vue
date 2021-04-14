@@ -1,6 +1,7 @@
 <template>
   <div>
     123
+    {{$store.state.todos.list}}
     <ul>
       <li v-for="(item,index) in list" :key="index">{{item}}</li>
     </ul>
